@@ -1,0 +1,105 @@
+.front-side {
+    height: 250px;
+    width: 450px;
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.back-side {
+    height: 250px;
+    width: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    filter: invert(100%);
+}
+
+.imageclass {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.gray {
+    background-color: rgb(91, 91, 91);
+    display: flex;
+    height: 100px;
+    width: 450px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pinktext {
+    color: #DC389E;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.maintext {
+    color: white;
+    font-size: 13px;
+    font-family: "Source Code Pro";
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+.largetext {
+    font-size: 16px;
+}
+
+.textsection {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: space-evenly;
+}
+
+.textone {
+    display: flex;
+    flex-direction: column;
+}
+
+.texttwo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.textthree {
+    display: flex;
+    flex-direction: column;
+}
+
+.textthree p {
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+}
+
+.wholepage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
